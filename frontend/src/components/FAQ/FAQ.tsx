@@ -4,19 +4,19 @@ import "./FAQ.css";
 const FAQ: React.FC = () => {
   const faqs = [
     {
-      question: "What is CoFynd?",
+      question: "What is Office Link?",
       answer:
-        "CoFynd is India's fastest-growing workspace discovery platform, helping users find co-working spaces, private offices, and meeting rooms without brokerage.",
+        "Office Link is India's fastest-growing workspace discovery platform, helping users find co-working spaces, private offices, and meeting rooms without brokerage.",
     },
     {
       question: "Do I need to pay any brokerage?",
       answer:
-        "No, CoFynd does not charge any brokerage fees. You can explore, compare, and book workspaces completely free of charge.",
+        "No, Office Link does not charge any brokerage fees. You can explore, compare, and book workspaces completely free of charge.",
     },
     {
       question: "How do I book a workspace?",
       answer:
-        "Simply browse through the available spaces, schedule a site visit, and book your preferred space directly through CoFynd.",
+        "Simply Email us at Officelink@gmail.com, schedule a site visit, and book your preferred space directly through Office Link.",
     },
     {
       question: "Do you provide offline support?",

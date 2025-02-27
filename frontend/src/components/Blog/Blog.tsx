@@ -11,9 +11,9 @@ const Blog: React.FC = () => {
     },
     {
       id: 2,
-      title: "Zero Brokerage: The CoFynd Advantage",
+      title: "Zero Brokerage: The Office Link Advantage",
       description:
-        "Learn how CoFynd helps you find the best workspace without any brokerage fees.",
+        "Learn how Office Link helps you find the best workspace without any brokerage fees.",
       image: "https://source.unsplash.com/400x250/?business,meeting",
     },
     {
