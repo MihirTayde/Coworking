@@ -1,5 +1,6 @@
 import "./Blog.css";
 
+
 const Blog: React.FC = () => {
   const blogPosts = [
     {
