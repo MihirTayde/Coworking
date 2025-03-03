@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
-
+import { Link } from "react-scroll"; // Import Link and scroll
 import r from "../../assets/Logo/r.jpg";
 
 const AboutUs: React.FC = () => {
@@ -37,9 +37,16 @@ const AboutUs: React.FC = () => {
           </div>
         </div>
 
-        <a href="#contact" className="about-cta">
+        <Link
+          className="about-cta"
+          to="hero"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           🚀 Find Your Workspace Now
-        </a>
+        </Link>
       </div>
 
       <div className="about-image">
