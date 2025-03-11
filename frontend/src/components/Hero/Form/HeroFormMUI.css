@@ -1,0 +1,105 @@
+.hero-form-container {
+  max-width: 550px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 15px 15px 50px 15px;
+  text-align: center;
+}
+
+.about-cta {
+  display: inline-block;
+  padding: 14px 22px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  background: #007bff;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.about-cta:hover {
+  background: #0056b3;
+}
+
+.hero-form-container h3 {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.MuiTextField-root,
+.MuiButton-root,
+.date-picker {
+  border-radius: 10px !important;
+}
+
+.MuiTextField-root {
+  background: #f9f9f9;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 10px !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #1976d2;
+}
+
+.date-picker {
+  width: 100%;
+}
+
+.MuiButton-root {
+  background: #1976d2;
+  color: white;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: none;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.MuiButton-root:hover {
+  background: #135ba1;
+}
+
+.MuiTextField-root input,
+.MuiTextField-root textarea {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-form-container {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .about-cta {
+    font-size: 1rem;
+    padding: 10px 18px;
+  }
+
+  .MuiButton-root {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-form-container {
+    padding: 15px;
+  }
+
+  .about-cta {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    margin-bottom: 50px;
+  }
+
+  .MuiButton-root {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}

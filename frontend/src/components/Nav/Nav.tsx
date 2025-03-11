@@ -39,7 +39,7 @@ const Nav: React.FC = () => {
           </li>
           <li>
             <Link
-              to="contact" // Match the 'name' of the Element
+              to="hero" // Match the 'name' of the Element
               spy={true}
               smooth={true}
               offset={-70} // Adjust as needed for your header height

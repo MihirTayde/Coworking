@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Meeting_Room from "../../assets/Logo/Meeting_Room.jpg";
 import w from "../../assets/Logo/w.jpg";
-
+import HeroFormMUI from "./Form/HeroFormMUI";
 
 const Hero: React.FC = () => {
   interface ImageObject {
@@ -30,11 +30,14 @@ const Hero: React.FC = () => {
 
   return (
     <div className="hero-container">
+      <div>
+        <HeroFormMUI></HeroFormMUI>
+      </div>
+
       <div
         style={{
           maxWidth: "50%",
           maxHeight: "50%",
-
         }}
       >
         <Carousel autoPlay infiniteLoop showStatus={false} interval={10000}>
@@ -46,10 +49,6 @@ const Hero: React.FC = () => {
             />
           ))}
         </Carousel>
-      </div>
-
-      <div className="hero-form-container">
-        
       </div>
     </div>
   );

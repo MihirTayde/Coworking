@@ -1,7 +1,6 @@
 /* Main container */
 .hero-container {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -30,7 +29,6 @@
 /* Right Side - Form */
 .hero-form-container {
   flex: 1;
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;

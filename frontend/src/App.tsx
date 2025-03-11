@@ -11,6 +11,7 @@ import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import { Element } from 'react-scroll'; // Import Element
 
 const App: React.FC = () => {
+
   return (
     <div>
       <Nav />
@@ -18,7 +19,7 @@ const App: React.FC = () => {
         <AboutUs />
       </Element>
       <Element name="hero">
-        <Hero />
+        <Hero  />
       </Element>
      
       <Element name="spaces">
